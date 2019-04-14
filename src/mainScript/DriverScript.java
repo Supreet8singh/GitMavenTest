@@ -23,8 +23,7 @@ public class DriverScript {
 		ExcelReadWrite.openExcel(ConstantVariable.excelPath);
 		DOMConfigurator.configure("log4j.xml");
 	}
-//-------------------------------------------------------------------------------------------------
-//-------------------------------------------------------------------------------------------------
+
 //-------------------------------------------------------------------------------------------------	
 	@Test(priority = 1)
 	public static void tc01() throws Exception {
